@@ -18,20 +18,7 @@ header h1{
     align-items: center;
     color: rgb(0, 0, 0);
 }
-/* 
-.content {
-    background-color: #fff;
-    color: #fff;
-    
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 160px;
-    margin-left: 500px;
 
-   
-} */
 .content {
    
     max-width: 450px;
@@ -41,7 +28,7 @@ header h1{
     
     background: rgba(255, 255, 255, 0.1); 
     backdrop-filter: blur(15px);        
-    /* -webkit-backdrop-filter: blur(15px);  */
+   
     
     
     border-radius: 20px;
