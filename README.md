@@ -14,3 +14,4 @@ Event Delegation: Using e.target to handle clicks on li and span efficiently.
 DOM Manipulation: Adding and removing elements dynamically.
 
 CSS Pseudo-elements: Using ::before for the checkmark icons.
+(view app)(https://to-do-listtttt.vercel.app/)
