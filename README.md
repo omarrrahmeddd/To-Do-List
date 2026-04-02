@@ -1,18 +1,19 @@
  To-Do List App
-A simple task manager built with Vanilla JavaScript.
+A simple and interactive task manager built with Vanilla JavaScript.
 
- Features
-Add: Create new tasks.
+Tech Stack
+HTML5
 
-Toggle: Click a task to mark it as "checked".
+CSS3 (Pseudo-elements & Glassmorphism)
 
-Delete: Click the × to remove a task.
+JavaScript (DOM Manipulation & Event Delegation)
 
- Key Concepts
-Event Delegation: Using e.target to handle clicks on li and span efficiently.
+Key Features
+Add Tasks: Create new items.
 
-DOM Manipulation: Adding and removing elements dynamically.
+Toggle State: Mark tasks as "checked" or "unchecked".
 
-CSS Pseudo-elements: Using ::before for the checkmark icons.
+Delete: Remove tasks using the × icon.
 
- [view app](https://to-do-listtttt.vercel.app/)
+Live Demo
+[View My To-Do List](https://to-do-listtttt.vercel.app/)
