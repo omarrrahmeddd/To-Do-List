@@ -2,9 +2,9 @@
 A simple and interactive task manager built with Vanilla JavaScript.
 
 ## Tech Stack
-HTML5
+HTML
 
-## CSS3 (Pseudo-elements & Glassmorphism)
+CSS 
 
 JavaScript (DOM Manipulation & Event Delegation)
 
