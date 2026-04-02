@@ -15,4 +15,4 @@ DOM Manipulation: Adding and removing elements dynamically.
 
 CSS Pseudo-elements: Using ::before for the checkmark icons.
 
- (view app)(https://to-do-listtttt.vercel.app/)
+ [view app](https://to-do-listtttt.vercel.app/)
