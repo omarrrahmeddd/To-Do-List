@@ -20,6 +20,14 @@ function addTask(){
     taskInput.value="";
     saveafterrefresh();
 }
+// add by enter key
+let taskInput=document.getElementById("taskInput");
+taskInput.addEventListener("keypress",function(e){
+    if(e.key === "Enter"){
+        addTask();
+    }
+});
+
 addTaskBtn.addEventListener("click",addTask);
 
 taskList.addEventListener("click",function(e){
@@ -38,3 +46,14 @@ function showTask(){
     taskList.innerHTML=localStorage.getItem("data");
 }
 showTask();
+//another way to task list
+// taskList.addEventListener('click',()=>
+//     {
+//         if(event.target.tagName === "LI"){
+//             event.target.classList.toggle("checked");
+//             saveafterrefresh();
+//         }        else if(event.target.tagName === "SPAN"){
+//             event.target.parentElement.remove();
+//             saveafterrefresh();
+//         }
+// });
